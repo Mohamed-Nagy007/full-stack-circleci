@@ -1,1 +1,1 @@
-eb create  --sample udagram-api-dev
+eb create udagram-api-dev
