@@ -1,2 +1,2 @@
-eb setenv POSTGRES_USERNAME=postgres  POSTGRES_PASSWORD=postgres2022  POSTGRES_HOST=http://database-1.cwsqc4chitsu.us-west-2.rds.amazonaws.com  POSTGRES_DB= postgres  POSTGRES_PORT= 5432  PORT= 3000  AWS_REGION= us-west-2  AWS_PROFILE= default  AWS_BUCKET= mo-nagy-udagra  URL= http://udagram-api-dev.eba-gntau6iq.us-west-2.elasticbeanstalk.com  JWT_SECRET=jwt-secret &&
+eb setenv POSTGRES_USERNAME=postgres  POSTGRES_PASSWORD=postgres2022  POSTGRES_HOST=http://database-1.cwsqc4chitsu.us-west-2.rds.amazonaws.com  POSTGRES_DB=postgres  POSTGRES_PORT=5432  PORT=3000  AWS_REGION=us-west-2  AWS_PROFILE=default  AWS_BUCKET=mo-nagy-udagra  URL=http://udagram-api-dev.eba-gntau6iq.us-west-2.elasticbeanstalk.com  JWT_SECRET=jwt-secret &&
 eb deploy udagram-api-dev
