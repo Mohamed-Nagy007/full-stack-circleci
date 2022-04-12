@@ -1,0 +1,1 @@
+eb create  --sample udagram-api-dev
