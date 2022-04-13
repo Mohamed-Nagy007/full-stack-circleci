@@ -37,9 +37,9 @@ jobs:
           command: |
             npm run backend:deploy      
 workflows:
-  build-workflow:
+  workflow:
     jobs:
       - build:
           filters:
-            branches: /main\/.
-              
+            branches:
+               only: /main\/.
