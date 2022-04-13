@@ -41,5 +41,5 @@ workflows:
     jobs:
       - build:
           filters:
-            branches: main
-             
+            branches: /main\/.
+              
