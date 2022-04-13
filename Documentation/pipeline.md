@@ -33,8 +33,14 @@ command: | npm run backend:build
 
 &nbsp;
 
-#### [5] Deploy App
+#### [5] Deploy Frontend
 ```
 command: | npm run frontend:deploy
 ```
 ###### Which Will Deploy/Upload The Frontend Compiled Folder [www] To Our S3 Bucket  [mo-nagy-udagram] Automatically.
+
+#### [6] Deploy Backend
+```
+command: | npm run backend:deploy
+```
+###### Which Will Deploy/Upload The Backend Compiled Folder [www] To Our Elastic Beanstalk Automatically.
